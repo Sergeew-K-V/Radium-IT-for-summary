@@ -17,6 +17,7 @@ body {
   border-right: 2px solid #000;
   margin-right: 10px;
   padding-right: 10px;
+  transition: 0.5s;
 }
 .span-text:hover {
   font-size: 30px;
@@ -38,6 +39,11 @@ body {
   background-color: yellow;
   border: 1.8px solid black;
   font-size: 16px;
+  transition: 0.3s;
+}
+.btn-show-hide:hover {
+  font-size: 24px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .invisible {
