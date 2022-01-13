@@ -11,12 +11,12 @@ btnShowHide.addEventListener('click', () => {
     spanTextVisible = false
   } else {
     btnShowHide.textContent = 'Hide text'
+    spanTextVisible = true
   }
 })
 
 window.addEventListener('keydown', (event) => {
   if (event.keyCode === 32 && blockExist === true) {
-    event.preventDefault()
     blockForSpace.remove()
     blockExist = false
   }
